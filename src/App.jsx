@@ -1,5 +1,6 @@
 
 import './App.css'
+import Grandpa from './components/Grandpa/Grandpa';
 // import CustomHookForm from './components/CustomHookForm/CustomHookForm'
 import ReusableForm from './components/ReusableForm/ReusableForm'
 // import RefForm from './components/RefForm/RefForm'
@@ -20,6 +21,7 @@ console.log('Update Profile data', data);
     <>
      
       <h1>Form Master</h1>
+      <Grandpa></Grandpa>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StatefulForm></StatefulForm> */}
       {/* <RefForm></RefForm> */}
